@@ -96,6 +96,17 @@ The generated HTML file creates an interactive map showing:
 - The visualization may not work properly if too many hops are unresolved
 - Only tested in Windows 11
 
+## Possible errors and solutions
+
+- If you get an error like `ModuleNotFoundError: No module named 'win32api'`, you need to install the `pywin32` package. You can install it by running the following command:
+```bash
+pip install pywin32
+```
+
+- If any kind of auth error happens and you are in Windows 11, please make sure you have your location turned on. You can do this by going to `Settings > Privacy & Security > Location` and turning on the location.
+
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
